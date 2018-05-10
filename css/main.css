@@ -1,4 +1,45 @@
-*{
-  box-sizing: border-box;
-  font-size: 
+/* RGB
+$color1: rgba(215, 249, 241, 1);
+$color2: rgba(122, 160, 149, 1);
+$color3: rgba(64, 83, 27, 1);
+$color4: rgba(97, 139, 74, 1);
+$color5: rgba(175, 188, 136, 1);
+*/
+
+.box {
+  box-sizing: border-box
 }
+
+body{
+  font: normal 12px Helvetica, Arial, sans-serif;
+  margin-top: 120;
+}
+#nav-main {
+    background-color: rgba(215, 249, 241, 1);
+    overflow: auto;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+#nav-main ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#nav-main ul a {
+    color: black;
+    padding: 20px;
+    display: block;
+}
+#nav-main ul a:hover {
+  background-color: rgba(122, 160, 149, 1);
+}
+#nav-main ul li {
+  float: left;
+}
+/*section {
+  border: 2px solid green;
+  padding: 20px;
+  margin: 10px;
+}*/
