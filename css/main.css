@@ -24,18 +24,17 @@ body{
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 100;
 }
 #nav-main ul {
   margin: 0;
   padding: 0;
   list-style: none;
-  text-decoration:none;
 }
 #nav-main ul a {
     color: black;
     padding: 20px;
     display: block;
+    text-decoration:none;
 }
 #nav-main ul a:hover {
   background-color: rgba(122, 160, 149, 1);
@@ -49,23 +48,15 @@ body{
 h2{
   font: 70px black;
   font-family: 'Sigmar One', cursive;
+  margin-left: 15px;
 }
 .div-h3{
   float: right;
   width: 250px;
+  margin-right: 50px;
 }
 h3{
   font: 40px;
   font-family: 'Special Elite', cursive;
   margin-top: 30px;
-
 }
-
-
-
-
-/*section {
-  border: 2px solid green;
-  padding: 20px;
-  margin: 10px;
-}*/
