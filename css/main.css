@@ -11,8 +11,12 @@ $color5: rgba(175, 188, 136, 1);
 }
 
 body{
-  font: normal 12px Helvetica, Arial, sans-serif;
-  margin-top: 120;
+  font: normal 16px Helvetica, Arial, sans-serif;
+  margin-top: 120px;
+  background-image: url('../img/shining.jpg');
+  background-color: black;
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 #nav-main {
     background-color: rgba(215, 249, 241, 1);
@@ -26,6 +30,7 @@ body{
   margin: 0;
   padding: 0;
   list-style: none;
+  text-decoration:none;
 }
 #nav-main ul a {
     color: black;
@@ -38,6 +43,27 @@ body{
 #nav-main ul li {
   float: left;
 }
+.div-h2{
+  float: left;
+}
+h2{
+  font: 70px black;
+  font-family: 'Sigmar One', cursive;
+}
+.div-h3{
+  float: right;
+  width: 250px;
+}
+h3{
+  font: 40px;
+  font-family: 'Special Elite', cursive;
+  margin-top: 30px;
+
+}
+
+
+
+
 /*section {
   border: 2px solid green;
   padding: 20px;
